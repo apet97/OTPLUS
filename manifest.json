@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.3",
+  "key": "overtime-summary",
+  "name": "Overtime Summary",
+  "baseUrl": "https://apet97.github.io/overtime-compact-ui",
+  "description": "Analyze overtime hours and capacity utilization with configurable thresholds.",
+  "minimalSubscriptionPlan": "FREE",
+  "scopes": ["TIME_ENTRY_READ", "USER_READ"],
+  "components": [
+    {
+      "type": "sidebar",
+      "accessLevel": "EVERYONE",
+      "path": "/",
+      "label": "Overtime Summary"
+    }
+  ]
+}
